@@ -1,7 +1,12 @@
 import requests
+import sqlite3
+
 from itms_urls import *
 
-r = requests.get(base_itms_url+vyzvy_planovane)
+conn = sqlite3.connect('itms.db')
+
+r = requests.get(base_itms_url+projekty_ukoncene)
 print(r.json()[0].keys())
+#print(r.json())
 
 
