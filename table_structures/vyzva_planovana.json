@@ -1,0 +1,46 @@
+{
+  "alokaciaEU": 0.33791669666851254,
+  "alokaciaSR": 0.567133464103955,
+  "createdAt": "1986-02-03T09:35:23Z",
+  "datumUzavretia1Kolo": "1991-12-15T05:02:20Z",
+  "datumUzavretia2Kolo": "2003-02-06T01:28:10Z",
+  "datumVyhlasenia1Kolo": "1993-02-05T07:50:47Z",
+  "datumVyhlasenia2Kolo": "1974-02-06T08:43:35Z",
+  "doplnujuceInfo": [
+    {
+      "nazov": "Harum vitae eveniet sapiente.",
+      "url": "Ea sunt odio deserunt iusto tempore velit."
+    }
+  ],
+  "druh": "Labore voluptas qui omnis sapiente et.",
+  "href": "Commodi assumenda voluptatem aut et.",
+  "id": 9149218752909371000,
+  "kod": "Totam eligendi.",
+  "konkretneCiele": [
+    {
+      "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+      "id": 9222099972168834000
+    }
+  ],
+  "nazov": "Fugiat labore optio adipisci dolores.",
+  "poskytovatelia": [
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  ],
+  "stav": "Et praesentium ut.",
+  "typ1Kolo": "Impedit repellat et qui laudantium sed.",
+  "typ2Kolo": "Asperiores maiores aut.",
+  "updatedAt": "2006-07-25T15:23:27Z",
+  "vyhlasovatel": {
+    "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+    "href": "Omnis eius quos iure possimus sed.",
+    "ico": "Quisquam accusamus.",
+    "id": 874173353018890000,
+    "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+  }
+}

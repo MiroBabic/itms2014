@@ -1,0 +1,133 @@
+{
+  "alokaciaEU": 0.6859051675404498,
+  "alokaciaSR": 0.42814803767817994,
+  "createdAt": "2014-12-19T20:22:41Z",
+  "datumUzavretia": "1984-06-11T17:12:21Z",
+  "datumVyhlasenia": "1974-11-09T00:03:49Z",
+  "doplnujuceInfo": [
+    {
+      "nazov": "Harum vitae eveniet sapiente.",
+      "url": "Ea sunt odio deserunt iusto tempore velit."
+    },
+    {
+      "nazov": "Harum vitae eveniet sapiente.",
+      "url": "Ea sunt odio deserunt iusto tempore velit."
+    },
+    {
+      "nazov": "Harum vitae eveniet sapiente.",
+      "url": "Ea sunt odio deserunt iusto tempore velit."
+    }
+  ],
+  "druh": "Sunt voluptatem nihil.",
+  "fondy": [
+    {
+      "ciselnikKod": 7949455998574790000,
+      "href": "Ut repudiandae a quo aspernatur.",
+      "id": 5576782537149180000
+    },
+    {
+      "ciselnikKod": 7949455998574790000,
+      "href": "Ut repudiandae a quo aspernatur.",
+      "id": 5576782537149180000
+    },
+    {
+      "ciselnikKod": 7949455998574790000,
+      "href": "Ut repudiandae a quo aspernatur.",
+      "id": 5576782537149180000
+    }
+  ],
+  "href": "Incidunt ipsum porro.",
+  "id": 1829421361430062300,
+  "kod": "Eveniet non repellendus dignissimos.",
+  "konkretneCieleTypyAktivit": [
+    {
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      },
+      "typyAktivit": [
+        {
+          "href": "Nesciunt voluptate quidem.",
+          "id": 672472513606076700
+        },
+        {
+          "href": "Nesciunt voluptate quidem.",
+          "id": 672472513606076700
+        },
+        {
+          "href": "Nesciunt voluptate quidem.",
+          "id": 672472513606076700
+        }
+      ]
+    }
+  ],
+  "kontaktneOsoby": [
+    {
+      "email": "Ut quis et esse.",
+      "id": 6879070982132025000,
+      "meno": "Porro vero ullam aut et dolore praesentium.",
+      "menoUplne": "Et magni et nihil.",
+      "priezvisko": "Natus sapiente ut ducimus nihil ex neque.",
+      "telefon": "Recusandae numquam totam est minima mollitia."
+    },
+    {
+      "email": "Ut quis et esse.",
+      "id": 6879070982132025000,
+      "meno": "Porro vero ullam aut et dolore praesentium.",
+      "menoUplne": "Et magni et nihil.",
+      "priezvisko": "Natus sapiente ut ducimus nihil ex neque.",
+      "telefon": "Recusandae numquam totam est minima mollitia."
+    }
+  ],
+  "nazov": "Maiores ducimus illum vel quibusdam.",
+  "planovaneVyzvy": [
+    {
+      "href": "Commodi assumenda voluptatem aut et.",
+      "id": 9149218752909371000
+    },
+    {
+      "href": "Commodi assumenda voluptatem aut et.",
+      "id": 9149218752909371000
+    }
+  ],
+  "poskytovatelia": [
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    },
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    },
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  ],
+  "posudzovaneObdobia": [
+    {
+      "datumUzavierky": "Molestiae possimus enim tempora voluptate mollitia aliquam.",
+      "poradoveCislo": 4558199201311446500
+    }
+  ],
+  "stav": "Quaerat similique quis nam.",
+  "technickaAsistencia": false,
+  "typ": "Aut in.",
+  "updatedAt": "1983-12-17T15:25:49Z",
+  "vyhlasovatel": {
+    "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+    "href": "Omnis eius quos iure possimus sed.",
+    "ico": "Quisquam accusamus.",
+    "id": 874173353018890000,
+    "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+  }
+}

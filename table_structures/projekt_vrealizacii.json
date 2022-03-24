@@ -1,0 +1,537 @@
+{
+  "akronym": "Quidem perspiciatis.",
+  "aktivity": [
+    {
+      "href": "Rerum voluptatem in voluptate unde.",
+      "id": 9183419050491419000
+    }
+  ],
+  "cisloZmluvy": "Asperiores esse itaque.",
+  "createdAt": "2014-07-22T06:07:08Z",
+  "dataProjektu": [
+    {
+      "aktualnySkutocnyStav": 0.8480336324364414,
+      "datumPoslednehoMerania": "Eos suscipit assumenda.",
+      "kod": "Asperiores distinctio eum placeat repellendus.",
+      "mernaJednotka": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "nazov": "Cumque cumque."
+    }
+  ],
+  "datumKoncaHlavnychAktivit": "1987-08-20T21:33:00Z",
+  "datumKoncaRealizacie": "1990-06-10T03:38:56Z",
+  "datumPlatnostiZmluvy": "1983-12-25T21:45:30Z",
+  "datumUcinnostiZmluvy": "1971-02-20T13:58:21Z",
+  "datumZaciatkuHlavnychAktivit": "1996-03-23T14:53:41Z",
+  "datumZaciatkuRealizacie": "1997-03-14T08:34:31Z",
+  "dlzkaCelkovaHlavnychAktivit": 7719089383640293000,
+  "dlzkaCelkovaProjektu": 432494875912693000,
+  "formyFinancovania": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "hospodarskeCinnosti": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "href": "Ab aut labore sit aspernatur.",
+  "id": 9032113316977132000,
+  "intenzity": [
+    {
+      "href": "Pariatur nemo reiciendis officia.",
+      "id": 2215469509307210000
+    },
+    {
+      "href": "Pariatur nemo reiciendis officia.",
+      "id": 2215469509307210000
+    }
+  ],
+  "kod": "Nisi qui nihil.",
+  "meratelneUkazovatele": [
+    {
+      "aktualnySkutocnyStav": 0.7574612738652207,
+      "aktualnySkutocnyStavMuzi": 0.5602958779278242,
+      "aktualnySkutocnyStavZeny": 0.2569720040075315,
+      "datumPoslednehoMerania": "Veritatis debitis voluptatem ex voluptate quo delectus.",
+      "hodnotaCielovaCelkova": 0.8983863728916655,
+      "priznakRizika": false,
+      "projektovyUkazovatel": {
+        "href": "Eveniet qui dolores eaque esse dolor.",
+        "id": 2195817700315470800
+      }
+    }
+  ],
+  "miestaRealizacie": [
+    {
+      "nuts3": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts4": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts5": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "stat": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      }
+    },
+    {
+      "nuts3": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts4": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts5": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "stat": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      }
+    },
+    {
+      "nuts3": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts4": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts5": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "stat": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      }
+    }
+  ],
+  "miestaRealizacieMimoUzemiaOP": [
+    {
+      "nuts3": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts4": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "nuts5": {
+        "gpsLat": 0.026877418271392502,
+        "gpsLon": 0.02039836448970864,
+        "hodnotaNuts": {
+          "ciselnikKod": 7949455998574790000,
+          "href": "Ut repudiandae a quo aspernatur.",
+          "id": 5576782537149180000
+        }
+      },
+      "stat": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      }
+    }
+  ],
+  "monitorovacieTerminy": [
+    {
+      "datumPredlozeniaNajneskorsi": "Consequuntur voluptas ipsam non voluptatem et.",
+      "poradoveCislo": 148263798567724220,
+      "terminMonitorovania": "Veritatis quia sunt eum.",
+      "typMonitorovacejSpravy": "Deserunt hic et est voluptatum velit."
+    },
+    {
+      "datumPredlozeniaNajneskorsi": "Consequuntur voluptas ipsam non voluptatem et.",
+      "poradoveCislo": 148263798567724220,
+      "terminMonitorovania": "Veritatis quia sunt eum.",
+      "typMonitorovacejSpravy": "Deserunt hic et est voluptatum velit."
+    },
+    {
+      "datumPredlozeniaNajneskorsi": "Consequuntur voluptas ipsam non voluptatem et.",
+      "poradoveCislo": 148263798567724220,
+      "terminMonitorovania": "Veritatis quia sunt eum.",
+      "typMonitorovacejSpravy": "Deserunt hic et est voluptatum velit."
+    }
+  ],
+  "nazov": "Consequatur maxime quis.",
+  "oblastiIntervencie": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "organizacneZlozky": [
+    {
+      "adresa": "Adipisci porro velit repellendus voluptas aut.",
+      "id": 3189650347903362600,
+      "nazov": "Incidunt laborum omnis."
+    }
+  ],
+  "otvorenaZmena": false,
+  "otvorenyDodatok": false,
+  "partneri": [
+    {
+      "predchodcovia": [
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        },
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        },
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        }
+      ],
+      "subjekt": {
+        "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+        "href": "Omnis eius quos iure possimus sed.",
+        "ico": "Quisquam accusamus.",
+        "id": 874173353018890000,
+        "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+      }
+    },
+    {
+      "predchodcovia": [
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        },
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        },
+        {
+          "id": 7978623990685396000,
+          "platnostPredchodcuDo": "Sunt quod repudiandae.",
+          "subjekt": {
+            "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+            "href": "Omnis eius quos iure possimus sed.",
+            "ico": "Quisquam accusamus.",
+            "id": 874173353018890000,
+            "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+          }
+        }
+      ],
+      "subjekt": {
+        "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+        "href": "Omnis eius quos iure possimus sed.",
+        "ico": "Quisquam accusamus.",
+        "id": 874173353018890000,
+        "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+      }
+    }
+  ],
+  "polozkyRozpoctu": [
+    {
+      "href": "Nostrum est aliquam provident fugit consequatur.",
+      "id": 5329379767187668000
+    },
+    {
+      "href": "Nostrum est aliquam provident fugit consequatur.",
+      "id": 5329379767187668000
+    }
+  ],
+  "popisProjektu": "Non voluptatem numquam aut.",
+  "popisSituaciePoRealizacii": "Est labore et aperiam nisi.",
+  "popisSposobuRealizacie": "Facilis veniam consequatur quia qui.",
+  "popisVychodiskovejSituacie": "Nulla ut aut cumque.",
+  "popiskapacityprijimatela": "Delectus nihil.",
+  "prijimatel": {
+    "predchodcovia": [
+      {
+        "id": 7978623990685396000,
+        "platnostPredchodcuDo": "Sunt quod repudiandae.",
+        "subjekt": {
+          "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+          "href": "Omnis eius quos iure possimus sed.",
+          "ico": "Quisquam accusamus.",
+          "id": 874173353018890000,
+          "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+        }
+      },
+      {
+        "id": 7978623990685396000,
+        "platnostPredchodcuDo": "Sunt quod repudiandae.",
+        "subjekt": {
+          "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+          "href": "Omnis eius quos iure possimus sed.",
+          "ico": "Quisquam accusamus.",
+          "id": 874173353018890000,
+          "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+        }
+      },
+      {
+        "id": 7978623990685396000,
+        "platnostPredchodcuDo": "Sunt quod repudiandae.",
+        "subjekt": {
+          "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+          "href": "Omnis eius quos iure possimus sed.",
+          "ico": "Quisquam accusamus.",
+          "id": 874173353018890000,
+          "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+        }
+      }
+    ],
+    "subjekt": {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  },
+  "schvalenaZonfp": {
+    "href": "Quia sapiente veritatis.",
+    "id": 3294784677977076700
+  },
+  "sekundarnyTematickyOkruh": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "stav": "Est in qui deserunt maxime.",
+  "sumaCelkovaProjektovGenerujucichPrijem": 0.9546349468163949,
+  "sumaZazmluvnena": 0.23374687067883837,
+  "sumaZazmluvnenaPovodna": 0.7135569518892877,
+  "typyUzemia": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "updatedAt": "2009-06-06T10:38:47Z",
+  "urlAdresaZmluva": "Dicta nisi nesciunt consectetur vitae laborum.",
+  "uzemneMechanizmy": [
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    },
+    {
+      "hodnotaCiselnika": {
+        "ciselnikKod": 7949455998574790000,
+        "href": "Ut repudiandae a quo aspernatur.",
+        "id": 5576782537149180000
+      },
+      "konkretnyCiel": {
+        "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+        "id": 9222099972168834000
+      }
+    }
+  ],
+  "vyzva": {
+    "href": "Dolores sit et.",
+    "id": 3329704085726701000
+  },
+  "zameranieProjektu": "Numquam placeat."
+}

@@ -1,0 +1,16 @@
+{"base_itms_url":"https://opendata.itms2014.sk",
+	"data_sources":
+	{
+	 "vyzvy_planovane":"/v2/vyzvy/planovane",
+     "vyzvy_vyhlasene":"/v2/vyzvy/vyhlasene",
+	 "projekty_ukoncene":"/v2/projekty/ukoncene",
+	 "projekty_vrealizacii": "/v2/projekty/vrealizacii"
+	},
+	"data_objects_struct":
+	{
+	 "vyzva_vyhlasena": {"source_table":"vyzvy_vyhlasene","source_column":"href","source_file":"table_structures/vyzva_vyhlasena.json"},
+	 "vyzva_planovana" :{"source_table":"vyzvy_planovane","source_column":"href","source_file":"table_structures/vyzva_planovana.json"},
+	 "projekt_ukonceny": {"source_table":"projekty_ukoncene","source_column":"href","source_file":"table_structures/projekt_ukonceny.json"},
+	 "projekt_vrealizacii": {"source_table":"projekty_vrealizacii","source_column":"href","source_file":"table_structures/projekt_vrealizacii.json"}
+	}
+	}
