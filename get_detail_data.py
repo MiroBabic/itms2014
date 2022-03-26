@@ -11,7 +11,7 @@ base_itms_url = itms_data["base_itms_url"]
 
 for key,value in itms_data["data_objects_struct"].items():
 	conn.row_factory = lambda cursor, row: row[0]
-	get_url_query= f'SELECT {value["source_column"]} FROM {value["source_table"]}'
+	get_url_query= f'SELECT {value["source_column"]} FROM {value["source_table"]} WHERE {value["source_column"]} not in (select {value["source_column"]} from {key})'
 	urls = execute_sqlite_query(conn,get_url_query).fetchall()
 	start = len(urls)
 	for rec_url in urls:
@@ -30,5 +30,7 @@ for key,value in itms_data["data_objects_struct"].items():
 			if (idx+1 != len(columns)):
 					query += ", "
 		query += ");"
+		execute_sqlite_query(conn,"BEGIN TRANSACTION;")
 		execute_sqlite_query(conn,query)
+		execute_sqlite_query(conn,"COMMIT;")
 		start = start - 1
