@@ -1,5 +1,4 @@
 from tools import *
-from itms_urls import *
 import requests
 import json
 

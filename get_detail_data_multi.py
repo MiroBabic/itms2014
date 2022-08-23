@@ -1,5 +1,4 @@
 from tools import *
-from itms_urls import *
 import requests
 import json
 import numpy as np
@@ -36,13 +35,17 @@ for key,value in itms_data["data_objects_struct"].items():
     start = len(urls)
     if (len(urls)==0):
         continue
-    split_arr = np.array_split(urls,len(urls)/10)
+    if(len(urls)<=10):
+        split_arr=[urls]
+    else:
+        split_arr = np.array_split(urls,len(urls)/10)
     for chunk in split_arr:
         print(start)
         ret = asyncio.run(collect(chunk))
-        print("mam ret")
         #print(ret)
         for record in ret:
+            if record==None:
+                continue
             columns = list(record.keys())
             columns_str = ",".join(columns)
             res_data = record
