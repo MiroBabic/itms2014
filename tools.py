@@ -30,3 +30,16 @@ def create_table_query(tablename,columns):
 	query += ")"
 
 	return query
+
+def create_select_query(tablename,columns):
+	query = f"SELECT "
+	if (len(columns) == 0):
+		query += "*"
+	else:
+		for idx,column in enumerate(columns):
+			query += f"{column} "
+			if ((idx+1) != len(columns)):
+				query += ", "
+	query += f" FROM {tablename} ;"
+
+	return query
