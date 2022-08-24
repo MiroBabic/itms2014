@@ -1,0 +1,155 @@
+{
+  "administrativnyStav": {
+    "ciselnikKod": 7949455998574790000,
+    "href": "Ut repudiandae a quo aspernatur.",
+    "id": 5576782537149180000
+  },
+  "celkovaSumaNezrovnalosti": 0.1553281604169805,
+  "celkovaSumaNezrovnalostiZdrojEU": 0.7878723142824654,
+  "celkovaSumaNezrovnalostiZdrojPR": 0.667291128560539,
+  "celkovaSumaNezrovnalostiZdrojSR": 0.7089529951342884,
+  "createdAt": "1985-11-12T12:08:50Z",
+  "datumPrvejInformacie": "Qui nihil ipsa nostrum.",
+  "datumZistenia": "Reprehenderit quas sit magnam distinctio.",
+  "dlznik": {
+    "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+    "href": "Omnis eius quos iure possimus sed.",
+    "ico": "Quisquam accusamus.",
+    "id": 874173353018890000,
+    "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+  },
+  "dopadNaRozpocetEU": "Ipsam ullam consequuntur.",
+  "druhNezrovnalosti": "Voluptatum recusandae sit et sit quia aliquid.",
+  "financnyStav": {
+    "ciselnikKod": 7949455998574790000,
+    "href": "Ut repudiandae a quo aspernatur.",
+    "id": 5576782537149180000
+  },
+  "hlavnyTypNezrovnalosti": {
+    "ciselnikKod": 7949455998574790000,
+    "href": "Ut repudiandae a quo aspernatur.",
+    "id": 5576782537149180000
+  },
+  "href": "Vero id magnam accusamus dolorem.",
+  "id": 5517671197188268000,
+  "jeSystemova": false,
+  "kod": "Tenetur quo nihil dolorem.",
+  "konkretnyCiel": {
+    "href": "Dignissimos repudiandae corrupti dolor qui veritatis.",
+    "id": 9222099972168834000
+  },
+  "operacnyProgram": {
+    "href": "Recusandae ullam et qui magnam.",
+    "id": 5944753063917420000
+  },
+  "penale": 0.0016136302995753342,
+  "pokuty": 0.9193023978729362,
+  "popis": "At non impedit.",
+  "pouzitePraktiky": "Modi dolor dicta impedit nostrum.",
+  "prioritnaOs": {
+    "href": "Voluptatem nemo hic nesciunt illo voluptas sit.",
+    "id": 3381240247618723300
+  },
+  "projekt": {
+    "href": "Numquam placeat pariatur officiis veritatis.",
+    "id": 4052499471168472000
+  },
+  "projektVPripraveAleboNerealizovany": "Laudantium deleniti vel dolor ut ipsum quos.",
+  "stanoviskoDlznika": "Quo consectetur suscipit voluptatibus occaecati quia.",
+  "stanoviskoOrganu": "Praesentium aut non.",
+  "stav": "Nam recusandae dolores nobis.",
+  "subjektyKtoreSposobiliNezrovnalost": [
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  ],
+  "subjektyKtoreZistiliNezrovnalost": [
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    },
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  ],
+  "subjektyZodpovedneZaNasledneKonanie": [
+    {
+      "dic": "Ut voluptatem illum quod earum asperiores sequi.",
+      "href": "Omnis eius quos iure possimus sed.",
+      "ico": "Quisquam accusamus.",
+      "id": 874173353018890000,
+      "ineIdentifikacneCislo": "Perspiciatis perferendis ducimus unde unde architecto."
+    }
+  ],
+  "sumaNaVymahanie": 0.5309132560785422,
+  "sumaNaVymahanieZdrojEU": 0.8823103996197342,
+  "sumaNaVymahanieZdrojPR": 0.6745218522956486,
+  "sumaNaVymahanieZdrojSR": 0.7153768310301574,
+  "suvisiaceNezrovnalosti": [
+    {
+      "href": "Vero id magnam accusamus dolorem.",
+      "id": 5517671197188268000
+    },
+    {
+      "href": "Vero id magnam accusamus dolorem.",
+      "id": 5517671197188268000
+    },
+    {
+      "href": "Vero id magnam accusamus dolorem.",
+      "id": 5517671197188268000
+    }
+  ],
+  "suvisiacePohladavkoveDoklady": [
+    {
+      "href": "Et est ab qui quos magnam iure.",
+      "id": 5962909677893543000
+    },
+    {
+      "href": "Et est ab qui quos magnam iure.",
+      "id": 5962909677893543000
+    }
+  ],
+  "suvisiaceVerejneObstaravania": [
+    {
+      "href": "Ducimus consectetur voluptatibus voluptatum beatae repellendus distinctio.",
+      "id": 5580392907548115000
+    },
+    {
+      "href": "Ducimus consectetur voluptatibus voluptatum beatae repellendus distinctio.",
+      "id": 5580392907548115000
+    },
+    {
+      "href": "Ducimus consectetur voluptatibus voluptatum beatae repellendus distinctio.",
+      "id": 5580392907548115000
+    }
+  ],
+  "suvisiaceZop": [
+    {
+      "href": "Facere voluptas sint eaque magni ipsam.",
+      "id": 6417106414837085000
+    }
+  ],
+  "typyNezrovnalosti": [
+    {
+      "ciselnikKod": 7949455998574790000,
+      "href": "Ut repudiandae a quo aspernatur.",
+      "id": 5576782537149180000
+    }
+  ],
+  "updatedAt": "1972-12-15T05:10:25Z",
+  "vratenaSuma": 0.09721499488783215,
+  "vratenaSumaZdrojEU": 0.24207582490580493,
+  "vratenaSumaZdrojPR": 0.3860797752347917,
+  "vratenaSumaZdrojSR": 0.7851189393181471
+}
