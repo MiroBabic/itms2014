@@ -18,7 +18,6 @@ def export_table(dbfile,table_to_export,columns,export_delimiter,export_quoting)
 	print(f"Exporting...")
 	query = create_select_query(table_to_export,columns)
 	exported_data = execute_sqlite_query(conn,query)
-	num_fields = len(exported_data.description)
 	field_names = [i[0] for i in exported_data.description]
 	
 	out_file= open('export.csv', 'w',encoding='utf-8', newline='')
