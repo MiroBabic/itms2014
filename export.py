@@ -5,7 +5,6 @@
 import argparse
 import csv
 from tools import *
-import pandas as pd
 import sqlite3
 from sqlite3 import Error
 from contextlib import closing
