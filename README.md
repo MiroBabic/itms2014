@@ -4,10 +4,13 @@ python scraper for itms2014 data
 As db is used SQLite, connector to any real db can be modified in tools.py.
 
 itms_urls.json contains base tables to download (so far projekty a vyzvy) and detail structure for objects.
+If you want to load data only for some table, set rest for active:false
 
 Usage: 
 
 python create_base_tables.py
+
+python create_views.py
 
 python get_base_data.py
 
