@@ -28,6 +28,8 @@ base_itms_url = itms_data["base_itms_url"]
 
 
 for key,value in itms_data["data_objects_struct"].items():
+    if value["active"] is False:
+        continue
     print(key)
     conn.row_factory = lambda cursor, row: row[0]
     get_url_query= f'SELECT {value["source_column"]} FROM {value["source_table"]} WHERE {value["source_column"]} not in (select {value["source_column"]} from {key})'

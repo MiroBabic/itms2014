@@ -5,14 +5,18 @@
 	 "vyzvy_planovane":"/v2/vyzvy/planovane",
      "vyzvy_vyhlasene":"/v2/vyzvy/vyhlasene",
 	 "projekty_ukoncene":"/v2/projekty/ukoncene",
-	 "projekty_vrealizacii": "/v2/projekty/vrealizacii"
+	 "projekty_vrealizacii": "/v2/projekty/vrealizacii",
+	 "nezrovnalosti": "/v2/nezrovnalost",
+	 "projekt_aktivity": "/v2/aktivita"
 	},
 	"data_objects_struct":
 	{
-	 "vyzva_vyhlasena": {"source_table":"vyzvy_vyhlasene","source_column":"href","source_file":"table_structures/vyzva_vyhlasena.json"},
-	 "vyzva_planovana" :{"source_table":"vyzvy_planovane","source_column":"href","source_file":"table_structures/vyzva_planovana.json"},
-	 "projekt_ukonceny": {"source_table":"projekty_ukoncene","source_column":"href","source_file":"table_structures/projekt_ukonceny.json"},
-	 "projekt_vrealizacii": {"source_table":"projekty_vrealizacii","source_column":"href","source_file":"table_structures/projekt_vrealizacii.json"}
+	 "vyzva_vyhlasena": {"source_table":"vyzvy_vyhlasene","source_column":"href","source_file":"table_structures/vyzva_vyhlasena.json", "active":true},
+	 "vyzva_planovana" :{"source_table":"vyzvy_planovane","source_column":"href","source_file":"table_structures/vyzva_planovana.json", "active":true},
+	 "projekt_ukonceny": {"source_table":"projekty_ukoncene","source_column":"href","source_file":"table_structures/projekt_ukonceny.json", "active":true},
+	 "projekt_vrealizacii": {"source_table":"projekty_vrealizacii","source_column":"href","source_file":"table_structures/projekt_vrealizacii.json","active":true},
+	 "nezrovnalost": {"source_table":"nezrovnalosti","source_column":"href","source_file":"table_structures/nezrovnalost.json","active":true},
+	 "projekt_aktivita" : {"source_table":"projekt_aktivity","source_column":"href","source_file":"table_structures/aktivita.json","active":true}
 	 
 	}
 	}
