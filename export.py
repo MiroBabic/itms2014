@@ -1,17 +1,9 @@
-###
-### imports
-###
-
 import argparse
 import csv
 from tools import *
 import sqlite3
 from sqlite3 import Error
-from contextlib import closing
 
-###
-### functions
-###
 
 def export_table(dbfile,table_to_export,columns,export_delimiter,export_quoting):
 	conn = create_sqlite_connection(dbfile)
@@ -29,21 +21,14 @@ def export_table(dbfile,table_to_export,columns,export_delimiter,export_quoting)
 def show_tables(dbfile):
 	conn = create_sqlite_connection(dbfile)
 	tables_available = execute_sqlite_query(conn,"""SELECT name FROM sqlite_master;""")
-	print(f"Following tables and columns are available:")
+	print(f"Following tables are available:")
 	for table in tables_available.fetchall():
 		available_table = str(table[0])
 		print(available_table)
 
-###
-### initialize argparse parser
-###
-
 hello_msg = "Export.py is used for exporting data from a SQLite database to CSV file."
 parser = argparse.ArgumentParser(description = hello_msg)
 
-###
-### arguments
-###
 
 parser.add_argument("-f", "--dbfile", help = "use SQLite database file (required option)", action = "store", dest = "dbfile", required = True)
 parser.add_argument("-t", "--table", help = "export a table", action = "store", dest = "table")
@@ -52,10 +37,6 @@ parser.add_argument("-d", "--delimiter", help = "use different CSV delimiter (de
 parser.add_argument("-q", "--quote", help = "quote all exported data (default is to quote only where needed)", action = "store_true")
 
 args = parser.parse_args()
-
-###
-### main
-###
 
 if args.dbfile and not args.table:
 	dbfile = args.dbfile
