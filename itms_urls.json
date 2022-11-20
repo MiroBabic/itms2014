@@ -1,22 +1,22 @@
 {"base_itms_url":"https://opendata.itms2014.sk",
 	"data_sources":
 	{
-	 "ciselniky":"/v2/ciselniky",
-	 "vyzvy_planovane":"/v2/vyzvy/planovane",
-     "vyzvy_vyhlasene":"/v2/vyzvy/vyhlasene",
-	 "projekty_ukoncene":"/v2/projekty/ukoncene",
-	 "projekty_vrealizacii": "/v2/projekty/vrealizacii",
-	 "nezrovnalosti": "/v2/nezrovnalost",
-	 "projekt_aktivity": "/v2/aktivita"
+	 "ciselniky":{"url": "/v2/ciselniky","id_field": "ciselnikKod"},
+	 "vyzvy_planovane":{"url": "/v2/vyzvy/planovane","id_field": "id"},
+     "vyzvy_vyhlasene":{"url":"/v2/vyzvy/vyhlasene","id_field": "id"},
+	 "projekty_ukoncene":{"url":"/v2/projekty/ukoncene","id_field": "id"},
+	 "projekty_vrealizacii":{"url": "/v2/projekty/vrealizacii","id_field": "id"},
+	 "nezrovnalosti": {"url":"/v2/nezrovnalost","id_field": "id"},
+	 "projekt_aktivity":{"url": "/v2/aktivita","id_field": "id"}
 	},
 	"data_objects_struct":
 	{
-	 "vyzva_vyhlasena": {"source_table":"vyzvy_vyhlasene","source_column":"href","source_file":"table_structures/vyzva_vyhlasena.json", "active":true},
-	 "vyzva_planovana" :{"source_table":"vyzvy_planovane","source_column":"href","source_file":"table_structures/vyzva_planovana.json", "active":true},
-	 "projekt_ukonceny": {"source_table":"projekty_ukoncene","source_column":"href","source_file":"table_structures/projekt_ukonceny.json", "active":true},
-	 "projekt_vrealizacii": {"source_table":"projekty_vrealizacii","source_column":"href","source_file":"table_structures/projekt_vrealizacii.json","active":true},
-	 "nezrovnalost": {"source_table":"nezrovnalosti","source_column":"href","source_file":"table_structures/nezrovnalost.json","active":true},
-	 "projekt_aktivita" : {"source_table":"projekt_aktivity","source_column":"href","source_file":"table_structures/aktivita.json","active":true}
+	 "vyzva_vyhlasena": {"source_table":"vyzvy_vyhlasene","source_column":"href","source_file":"table_structures/vyzva_vyhlasena.json", "id_field": "id", "active":true},
+	 "vyzva_planovana" :{"source_table":"vyzvy_planovane","source_column":"href","source_file":"table_structures/vyzva_planovana.json", "id_field": "id","active":true},
+	 "projekt_ukonceny": {"source_table":"projekty_ukoncene","source_column":"href","source_file":"table_structures/projekt_ukonceny.json", "id_field": "id","active":true},
+	 "projekt_vrealizacii": {"source_table":"projekty_vrealizacii","source_column":"href","source_file":"table_structures/projekt_vrealizacii.json","id_field": "id","active":true},
+	 "nezrovnalost": {"source_table":"nezrovnalosti","source_column":"href","source_file":"table_structures/nezrovnalost.json","id_field": "id","active":true},
+	 "projekt_aktivita" : {"source_table":"projekt_aktivity","source_column":"href","source_file":"table_structures/aktivita.json","id_field": "id","active":true}
 	 
 	}
 	}

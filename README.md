@@ -1,7 +1,27 @@
 # itms2014
 python scraper for itms2014 data
 
-As db is used SQLite, connector to any real db can be modified in tools.py.
+Works with SQLite DB or PostgreSQL
+
+DB Config:
+Setup connectors and specify in "active" variable which DB you want to use
+```
+{	"active": "postgresql",
+	"db": {
+		"postgresql" :{
+			"server" : "localhost",
+			"port" :"5432",
+			"dbname" :"itms",
+			"user" : "postgres",
+			"password" : "my_password"
+		},
+		"sqlite": {
+		"filename": "itms.db"
+		}
+	}
+}
+```
+
 
 itms_urls.json contains base tables to download (so far projekty a vyzvy) and detail structure for objects.
 If you want to load data only for some table, set rest for active:false
@@ -20,7 +40,7 @@ python get_base_data.py
 python get_detail_data_multi.py  (if you want slow download one by one, use get_detail_data.py)
 ```
 
-For exporting data into file use export.py
+For exporting data into file use export.py - this works only for SQLite!
 
 examples:
 

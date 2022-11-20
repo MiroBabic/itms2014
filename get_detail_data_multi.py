@@ -20,20 +20,21 @@ async def collect(chunk):
         return ret
 
 
-conn = create_sqlite_connection('itms.db')
+conn = get_connection()
 
 itms_file = open('itms_urls.json')
 itms_data = json.load(itms_file)
 base_itms_url = itms_data["base_itms_url"]
-
+db_type = get_dbtype()
 
 for key,value in itms_data["data_objects_struct"].items():
     if value["active"] is False:
         continue
     print(key)
-    conn.row_factory = lambda cursor, row: row[0]
+    if db_type =="sqlite":
+        conn.row_factory = lambda cursor, row: row[0]
     get_url_query= f'SELECT {value["source_column"]} FROM {value["source_table"]} WHERE {value["source_column"]} not in (select {value["source_column"]} from {key})'
-    urls = execute_sqlite_query(conn,get_url_query).fetchall()
+    urls = execute_sql_query(conn,get_url_query).fetchall()
     start = len(urls)
     if (len(urls)==0):
         continue
@@ -43,6 +44,8 @@ for key,value in itms_data["data_objects_struct"].items():
         split_arr = np.array_split(urls,len(urls)/10)
     for chunk in split_arr:
         print(start)
+        if db_type=="pgsql":
+            chunk = flatten(chunk)
         ret = asyncio.run(collect(chunk))
         #print(ret)
         for record in ret:
@@ -51,7 +54,10 @@ for key,value in itms_data["data_objects_struct"].items():
             columns = list(record.keys())
             columns_str = ",".join(columns)
             res_data = record
-            query = f"INSERT OR IGNORE INTO {key} ({columns_str}) VALUES ("
+            if db_type=="sqlite":
+                query = f"INSERT OR IGNORE INTO {key} ({columns_str}) VALUES ("
+            elif db_type=="pgsql":
+                query = f"INSERT INTO {key} ({columns_str}) VALUES ("
             for idx,column in enumerate(columns):
                 if (column in res_data):
                     insert_val = str(res_data[column]).replace("'","''")
@@ -60,10 +66,13 @@ for key,value in itms_data["data_objects_struct"].items():
                     query +="''"
                 if (idx+1 != len(columns)):
                         query += ", "
-            query += ");"
-            execute_sqlite_query(conn,"BEGIN TRANSACTION;")
-            execute_sqlite_query(conn,query)
-            execute_sqlite_query(conn,"COMMIT;")
+            query += ")"
+            if db_type =="pgsql":
+                query+= f' ON CONFLICT ({value["id_field"]}) DO NOTHING'
+            query += ";"
+            execute_sql_query(conn,"BEGIN TRANSACTION;")
+            execute_sql_query(conn,query)
+            execute_sql_query(conn,"COMMIT;")
             
         start = start - 10
 

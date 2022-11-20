@@ -1,0 +1,14 @@
+{	"active": "postgresql",
+	"db": {
+		"postgresql" :{
+			"server" : "localhost",
+			"port" :"5432",
+			"dbname" :"itms",
+			"user" : "postgres",
+			"password" : "my_password"
+		},
+		"sqlite": {
+		"filename": "itms.db"
+		}
+	}
+}
