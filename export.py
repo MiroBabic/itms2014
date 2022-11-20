@@ -1,3 +1,4 @@
+####this exporter is only for SQLite DB
 import argparse
 import csv
 from tools import *
@@ -9,7 +10,7 @@ def export_table(dbfile,table_to_export,columns,export_delimiter,export_quoting)
 	conn = create_sqlite_connection(dbfile)
 	print(f"Exporting...")
 	query = create_select_query(table_to_export,columns)
-	exported_data = execute_sqlite_query(conn,query)
+	exported_data = execute_sql_query(conn,query)
 	field_names = [i[0] for i in exported_data.description]
 	
 	out_file= open('export.csv', 'w',encoding='utf-8', newline='')
@@ -20,7 +21,7 @@ def export_table(dbfile,table_to_export,columns,export_delimiter,export_quoting)
 
 def show_tables(dbfile):
 	conn = create_sqlite_connection(dbfile)
-	tables_available = execute_sqlite_query(conn,"""SELECT name FROM sqlite_master;""")
+	tables_available = execute_sql_query(conn,"""SELECT name FROM sqlite_master;""")
 	print(f"Following tables are available:")
 	for table in tables_available.fetchall():
 		available_table = str(table[0])
