@@ -27,6 +27,11 @@ itms_urls.json contains base tables to download (so far projekty a vyzvy) and de
 If you want to load data only for some table, set rest for active:false
 
 Usage: 
+if PostgreSQL is selected as active DB, create it first. Otherwise skip to next step (create tables)
+```
+python create_pg_db.py
+```
+
 ```
 python create_base_tables.py
 ```
